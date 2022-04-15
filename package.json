@@ -1,0 +1,27 @@
+{
+  "name": "weather-map",
+  "version": "1.0.0",
+  "description": "weather map site",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "select",
+    "city",
+    "and",
+    "see",
+    "forecast"
+  ],
+  "author": "Krauus8",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "clone": "^2.1.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "https": "^1.0.0",
+    "jquery": "^3.6.0"
+  }
+}

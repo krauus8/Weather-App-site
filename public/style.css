@@ -1,0 +1,72 @@
+body {
+background-color: #79ada45b;
+margin: 0.5rem;
+
+
+}
+h1{
+    text-align: center;
+    font-weight:600;
+    color: rgb(92, 91, 89);
+}
+h2{
+  text-align: center;
+}
+.scrolling-image-container {
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    
+  }
+  .scrolling-image {
+    background: url("cloud-computing.png") repeat-x;
+    height: 750px;
+    width: 7680px;
+    animation: slide 30s linear infinite;
+    opacity: 0.8;
+    position: absolute;
+    
+  }
+  @keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    100% {
+      transform: translate(-512px); /* The image width */
+    }
+  }
+  .cityContainer{
+ 
+    
+  }
+  .cityInfo{
+   
+  width: 8rem;
+  height:14rem;
+  margin: 1rem;
+
+  text-align: center;
+  background-color: aquamarine;
+  opacity: 0.7;
+ 
+ 
+    
+  }
+  .infoElement{
+    margin: 5%;
+  }
+  img{
+    height: 3rem;
+    width: 3rem;
+    margin-bottom: 0;
+  }
+.topContainer{
+  text-align: center;
+  margin-top: 2rem;
+  background-color: aquamarine;
+  width: 25%;
+  margin-left: 38%;
+  opacity: 0.65;
+}
+.btn{
+ background-color: aquamarine;
+}
