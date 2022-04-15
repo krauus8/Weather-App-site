@@ -96,6 +96,6 @@ app.post("/", (req, res) => {
   });
 });
 getIpAdress();
-app.listen(3001, () => {
+app.listen(process.env.PORT, () => {
   console.log("server is Runing on port 3001");
 });
